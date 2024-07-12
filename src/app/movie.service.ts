@@ -9,12 +9,14 @@ export class MovieService {
     {
       id: 1,
       title: 'Harry Potter and the Philosopher\'s Stone',
-      duration: 152, // Duration in minutes
-      budget: 125000000, // Budget in USD
+      duration: 152, 
+      budget: 125000000,
       releaseDate: '2001-11-16',
-      boxOffice: 974755371, // Box office earnings in USD
+      boxOffice: 974755371, 
       poster: 'assets/Harry.png',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.'
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.',
+      producers: ['Jaydeep Dahiwal', 'Rishikesh Shukla'],
+      cinematographers: ['Himanshi', 'Gowri Jadhav']
     },
     {
       id: 2,
@@ -24,7 +26,9 @@ export class MovieService {
       releaseDate: '2002-11-15',
       boxOffice: 879465646,
       poster: 'assets/Harry2.png',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.'
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.',
+      producers: ['Jaydeep Dahiwal', 'Rishikesh Shukla'],
+      cinematographers: ['Himanshi', 'Gowri Jadhav']
     },
     {
       id: 3,
@@ -34,7 +38,9 @@ export class MovieService {
       releaseDate: '2004-06-04',
       boxOffice: 796688549,
       poster: 'assets/Harry3.png',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.'
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.',
+      producers: ['Jaydeep Dahiwal', 'Rishikesh Shukla'],
+      cinematographers: ['Himanshi', 'Gowri Jadhav']
     },
     {
       id: 4,
@@ -44,7 +50,9 @@ export class MovieService {
       releaseDate: '2005-11-18',
       boxOffice: 896911078,
       poster: 'assets/Harry4.png',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.'
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.',
+      producers: ['Jaydeep Dahiwal', 'Rishikesh Shukla'],
+      cinematographers: ['Himanshi', 'Gowri Jadhav']
     },
     {
       id: 5,
@@ -54,7 +62,9 @@ export class MovieService {
       releaseDate: '2007-07-11',
       boxOffice: 942943935,
       poster: 'assets/Harry5.png',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.'
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.',
+      producers: ['Jaydeep Dahiwal', 'Rishikesh Shukla'],
+      cinematographers: ['Himanshi', 'Gowri Jadhav']
     },
     {
       id: 6,
@@ -64,7 +74,9 @@ export class MovieService {
       releaseDate: '2009-07-15',
       boxOffice: 934416487,
       poster: 'assets/Harry6.png',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.'
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.',
+      producers: ['Jaydeep Dahiwal', 'Rishikesh Shukla'],
+      cinematographers: ['Himanshi', 'Gowri Jadhav']
     },
     {
       id: 7,
@@ -74,7 +86,9 @@ export class MovieService {
       releaseDate: '2010-11-19',
       boxOffice: 976920886,
       poster: 'assets/Harry7.png',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.'
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.',
+      producers: ['Jaydeep Dahiwal', 'Rishikesh Shukla'],
+      cinematographers: ['Himanshi', 'Gowri Jadhav']
     },
     {
       id: 8,
@@ -84,9 +98,10 @@ export class MovieService {
       releaseDate: '2011-07-15',
       boxOffice: 1341511219,
       poster: 'assets/Harrry8.png',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.'
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem expedita officiis sed rem veritatis dicta molestiae suscipit, temporibus nesciunt assumenda, dolor repellendus quam minima cupiditate commodi? Veniam quos sequi, dicta debitis deleniti commodi voluptatibus, qui deserunt aliquid fugit incidunt sunt ratione quam vero assumenda dolorum dolor iste perspiciatis iusto.',
+      producers: ['Jaydeep Dahiwal', 'Rishikesh Shukla'],
+      cinematographers: ['Himanshi', 'Gowri Jadhav']
     }
-    // Add more movies as needed
   ];
 
   constructor() { }

@@ -4,60 +4,63 @@
       <button class="btn btn-primary" (click)="goBack()">Back to Movie List</button>
     </div>
   </div> -->
+
   <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" routerLink="/movies">
-        <i class="bi bi-house-door-fill"></i>
+      <a class="navbar-brand" routerLink="/">
+        <button class="btn btn-secondary custom-btn">
+          <i class="bi bi-house-door-fill"></i> Home
+        </button>
       </a>
-      <button class="btn btn-primary" (click)="goBack()">Back</button>
     </div>
   </nav>
 
+
   <div class="container mt-4">
-   
+
     <div class="row align-items-center mb-4">
 
       <div class="col text-center">
-        <h1>{{ movie.title }}</h1>
+        <h2>{{ movie.title }}</h2>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-lg-6 mb-4 ">
+      <div class="col-lg-4 mb-6 ">
         <img src="{{movie.poster}}" alt="{{ movie.title }} Poster" class="img-fluid rounded">
       </div>
 
-      <div class="col-lg-6">
-        <div class="mb-4">
-          <h3>Summary</h3>
-          <p><strong>Description:</strong> {{ movie.description }}</p>
+      <div class="col-lg-8">
+        <div class="mb-2">
+          <!-- <h3>Summary</h3> -->
+          <p><strong>Summary:</strong> {{ movie.description }}</p>
         </div>
       </div>
     </div>
-
+    <br>
     <div class="row">
       <div class="col">
-        <h3 class="text-center">Details</h3>
-        <table class="table  table-bordered">
+        <h4 class="text-center">Details</h4>
+        <table class="table table-bordered">
           <tbody>
             <tr>
-              <th scope="row" class="details-header text-right">Box Office</th>
+              <th class="details-header ">Box Office</th>
               <td class="text-left">{{ formatCurrency(movie.boxOffice) }}</td>
             </tr>
             <tr>
-              <th scope="row" class="details-header text-right">Budget</th>
+              <th class="details-header ">Budget</th>
               <td class="text-left">{{ formatCurrency(movie.budget) }}</td>
             </tr>
             <tr>
-              <th scope="row" class="details-header text-right">Duration</th>
+              <th class="details-header ">Duration</th>
               <td class="text-left">{{ formatDuration(movie.duration) }}</td>
             </tr>
             <tr>
-              <th scope="row" class="details-header text-right">Producers</th>
+              <th class="details-header">Producers</th>
               <td class="text-left">{{ movie.producers?.join(', ') }}</td>
             </tr>
             <tr>
-              <th scope="row" class="details-header text-right">Cinematographers</th>
+              <th class="details-header ">Cinematographers</th>
               <td class="text-left">{{ movie.cinematographers?.join(', ') }}</td>
             </tr>
           </tbody>

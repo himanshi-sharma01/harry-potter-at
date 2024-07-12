@@ -11,7 +11,7 @@ import { Movie } from '../movie.model';
 export class MovieListComponent implements OnInit {
   movies: Movie[] = [];
   searchKeyword: string = '';
-  searchYearVar: any;
+  searchYearVar: number | null = null;
 
   constructor(private movieService: MovieService, private router: Router) { }
 
@@ -25,14 +25,14 @@ export class MovieListComponent implements OnInit {
 
   search(): void {
     if (this.searchKeyword.trim() === '') {
-      this.loadMovies(); 
+      this.loadMovies();
     } else {
       this.movies = this.movieService.searchMovies(this.searchKeyword);
     }
   }
 
   searchYear(): void {
-    if (this.searchYearVar===0) {
+    if (this.searchYearVar === null || this.searchYearVar === undefined) {
       this.loadMovies();
     } else {
       this.movies = this.movieService.filterMoviesByYear(this.searchYearVar);
