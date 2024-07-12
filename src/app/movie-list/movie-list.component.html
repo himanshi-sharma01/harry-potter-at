@@ -1,0 +1,20 @@
+<div class="outer">
+    <div class="inner">
+      <h5>Filter</h5>
+      <label>Title</label>&nbsp;
+      <input type="text" [(ngModel)]="searchKeyword" onchange="" (input)="search()">&nbsp;
+      <label>Release year</label>&nbsp;
+      <input type="number" [(ngModel)]="searchYearVar" (input)="searchYear()">
+    </div>
+  </div>
+  <br/>
+  <ul class="movie-list">
+    <li *ngFor="let movie of movies">
+      <div class="movie-details">
+        <h5>{{ movie.title }}</h5>
+        <p>{{ movie.releaseDate | date:'mediumDate' }} - Budget: {{ formatCurrency(movie.budget) }} - Duration: {{ formatDuration(movie.duration) }}</p>
+      </div>
+      <button class="button1" (click)="onSelectMovie(movie.id)">Details</button>
+    </li>
+  </ul>
+  
